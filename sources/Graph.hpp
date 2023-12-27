@@ -1,8 +1,6 @@
 #pragma once
-#include <random>
-#include <iostream>
+#include <vector>
 namespace amit{
-
     class Graph{
     private:
         unsigned long _rank;

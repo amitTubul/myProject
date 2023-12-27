@@ -1,4 +1,6 @@
 #include "Graph.hpp"
+#include <random>
+#include <iostream>
 namespace amit {
     Graph::Graph(unsigned long rank) : _rank(rank), _matrix(rank, std::vector<int>(rank, 0)) {
         std::random_device rd;
